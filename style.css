@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.container {
+  max-width: 90%;
+  padding: 24px;
+}
+.fox-avatar {
+  width: 120px;
+  height: 120px;
+  background: url('https://cdn-icons-png.flaticon.com/512/616/616408.png') no-repeat center/contain;
+  margin: 0 auto 20px;
+}
+h1 {
+  color: #f26522;
+}
+button, .choice {
+  background-color: #f26522;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 12px;
+  font-size: 1em;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+.choice {
+  background-color: #ffe3c2;
+  color: #444;
+}
+#result {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+  padding-top: 12px;
+}
