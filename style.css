@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background: #fef6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  color: #ff6b35;
+}
+.subtitle {
+  color: #444;
+  margin: 10px 0 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.fox-avatar {
+  width: 100px;
+  height: 100px;
+  background: url('https://cdn-icons-png.flaticon.com/512/616/616408.png') no-repeat center/contain;
+  margin: 0 auto 20px;
+}
