@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background: #fffaf4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.container {
+  max-width: 90%;
+}
+h1 {
+  font-size: 2em;
+  color: #f26522;
+}
+.subtitle {
+  color: #444;
+  margin: 10px 0 20px;
+}
+.fox-avatar {
+  width: 100px;
+  height: 100px;
+  background: url('https://cdn-icons-png.flaticon.com/512/1998/1998610.png') no-repeat center/contain;
+  margin: 0 auto 20px;
+}
+.card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  padding: 12px;
+  background: #ffe3c2;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.card:hover {
+  background: #ffd3a2;
+}
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
