@@ -1,1 +1,0 @@
-console.log('Navika static site loaded');
