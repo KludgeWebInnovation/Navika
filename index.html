@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navika</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="splash">
+      <h1>Navika: Your Career Companion</h1>
+      <p>Click to begin your journey!</p>
+      <button onclick="startJourney()">Start</button>
+    </div>
+    <div id="journey" style="display:none;">
+      <h2>What excites you most?</h2>
+      <button onclick="selectPath('Tech')">Tech & Software</button>
+      <button onclick="selectPath('Creative')">Creative & Design</button>
+      <button onclick="selectPath('Helping')">Helping People</button>
+      <button onclick="selectPath('Leadership')">Leadership & Strategy</button>
+    </div>
+    <div id="result" style="display:none;">
+      <h2>Your Learning Path:</h2>
+      <p id="pathOutput"></p>
+      <button onclick="restart()">Start Again</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
