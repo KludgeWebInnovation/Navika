@@ -1,0 +1,18 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#app {
+  max-width: 600px;
+  padding: 20px;
+}
+h1 {
+  color: #f26522;
+}
